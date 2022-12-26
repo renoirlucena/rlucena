@@ -462,7 +462,7 @@
             (h = a.defaultLocale);
           let e = a.assetPrefix || "";
           if (
-            ((r.p = "".concat(e, "/_next/")),
+            ((r.p = "".concat(e, "/next/")),
             C.setConfig({
               serverRuntimeConfig: {},
               publicRuntimeConfig: a.runtimeConfig || {},
@@ -531,7 +531,7 @@
                             640, 750, 828, 1080, 1200, 1920, 2048, 3840,
                           ],
                           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                          path: "/_next/image",
+                          path: "/next/image",
                           loader: "default",
                           dangerouslyAllowSVG: !1,
                           unoptimized: !1,
@@ -962,7 +962,7 @@
               ".json"
             );
             return a.addBasePath(
-              "/_next/data/".concat(this.buildId).concat(t).concat(p),
+              "/next/data/".concat(this.buildId).concat(t).concat(p),
               !0
             );
           })(
@@ -1420,7 +1420,7 @@
       function d(e, t) {
         return c().then((r) => {
           if (!(t in r)) throw l(Error("Failed to lookup route: ".concat(t)));
-          let a = r[t].map((t) => e + "/_next/" + encodeURI(t));
+          let a = r[t].map((t) => e + "/next/" + encodeURI(t));
           return {
             scripts: a
               .filter((e) => e.endsWith(".js"))
@@ -2251,7 +2251,7 @@
         (t.imageConfigDefault = {
           deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-          path: "/_next/image",
+          path: "/next/image",
           loader: "default",
           loaderFile: "",
           domains: [],
@@ -3852,7 +3852,7 @@
             (e.buildId || !e.trailingSlash) && (t = n.removeTrailingSlash(t)),
             e.buildId &&
               (t = o.addPathSuffix(
-                a.addPathPrefix(t, "/_next/data/".concat(e.buildId)),
+                a.addPathPrefix(t, "/next/data/".concat(e.buildId)),
                 "/" === e.pathname ? "index.json" : ".json"
               )),
             (t = a.addPathPrefix(t, e.basePath)),
@@ -3956,7 +3956,7 @@
               ((u.pathname = a.removePathPrefix(u.pathname, i)),
               (u.basePath = i)),
             !0 === t.parseData &&
-              u.pathname.startsWith("/_next/data/") &&
+              u.pathname.startsWith("/next/data/") &&
               u.pathname.endsWith(".json"))
           ) {
             let c = u.pathname
