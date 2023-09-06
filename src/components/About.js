@@ -19,19 +19,13 @@ const About = () => {
                 <strong>Age:</strong> 37
               </li>
               <li>
-                <strong>Residence:</strong> Texas
+                <strong>Residence:</strong> Houston, TX
               </li>
               <li>
-                <strong>Freelance:</strong> Available
+                <strong>Phone:</strong> +1 (346) 634-6222
               </li>
               <li>
-                <strong>Address:</strong> São Paulo
-              </li>
-              <li>
-                <strong>Phone:</strong> +55 11 97375-3155
-              </li>
-              <li>
-                <strong>E-mail:</strong> hi@renoirlucena.dev
+                <strong>E-mail:</strong> renoirlucena@gmail.com
               </li>
             </ul>
           </div>
