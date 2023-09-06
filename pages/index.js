@@ -18,9 +18,9 @@ const IndexPersonal = () => {
                 style={{ backgroundImage: "url(images/renoir-profile.jpg)" }}
               />
               <h1 className="h-title">
-                Hello, I’m <strong>Renoir Lucena</strong>, Photographer+Videographer{" "}
+                Hello, I’m <strong>Renoir Lucena</strong>, {" "}
                 <br />
-                Full-stack Developer Based in São Paulo.
+                Full-stack Developer Based in Texas.
               </h1>
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
