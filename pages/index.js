@@ -20,7 +20,7 @@ const IndexPersonal = () => {
               <h1 className="h-title">
                 Hello, I’m <strong>Renoir Lucena</strong>, {" "}
                 <br />
-                Full-stack Developer Based in Texas.
+                Full-stack Developer Based in Texas!
               </h1>
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
