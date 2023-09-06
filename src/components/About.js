@@ -19,7 +19,7 @@ const About = () => {
                 <strong>Age:</strong> 36
               </li>
               <li>
-                <strong>Residence:</strong> Brazil
+                <strong>Residence:</strong> Houston, Texas
               </li>
               <li>
                 <strong>Freelance:</strong> Available
