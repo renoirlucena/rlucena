@@ -10,8 +10,6 @@ import {
   KnowledgeSkills,
   LanguagesSkills,
 } from "../src/components/Skills";
-// import Team from "../src/components/Team";
-import Testimonials from "../src/components/Testimonials";
 import Layout from "../src/layout/Layout";
 const Resume = () => {
   const typingAnimation = [
@@ -34,8 +32,6 @@ const Resume = () => {
       {/* Section Knowledge Skills */}
       <KnowledgeSkills />
       {/* Section Interests */}
-      <Interests />
-      {/* Section Testimonials */}
 
     </Layout>
   );
