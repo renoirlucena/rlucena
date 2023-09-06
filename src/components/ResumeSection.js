@@ -14,7 +14,7 @@ const ResumeSection = () => {
                 <div className="date">2016 - Present</div>
                 <div className="name">Marketing Director - Lidi Lopez Studio - São Paulo</div>
                 <div className="text">
-                •	Plan and execute all digital marketing, including SEO/SEM,
+                Plan and execute all digital marketing, including SEO/SEM,
                 marketing database, email, social media and display advertising campaigns
                 </div>
               </div>
@@ -37,12 +37,9 @@ const ResumeSection = () => {
             {/* resume items */}
             <div className="resume-items">
               <div className="resume-item content-box">
-                <div className="date">2007 - 2010</div>
-                <div className="name">Manager - Shell - Randolph, MA</div>
-                <div className="text">
-                Responsible for the overall operations of the store. Handled multiple
-                responsibilities and delivered quality customer service in a fast-paced environment.
-                </div>
+                <div className="date">2008 - 2012</div>
+                <div className="name">Bridgewater State University</div>
+                <div className="text">Computer Science</div>
               </div>
             </div>
           </div>

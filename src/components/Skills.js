@@ -109,16 +109,31 @@ export const KnowledgeSkills = () => {
         <div className="skills list content-box">
           <ul>
             <li>
-              <div className="name">HTML</div>
+              <div className="name">HTML5</div>
             </li>
             <li>
-              <div className="name">CSS</div>
+              <div className="name">CSS3</div>
             </li>
             <li>
               <div className="name">JavaScript</div>
             </li>
             <li>
+              <div className="name">StimulusJS</div>
+            </li>
+            <li>
               <div className="name">SQL</div>
+            </li>
+            <li>
+              <div className="name">AJAX</div>
+            </li>
+            <li>
+              <div className="name">API Rest/SOAP</div>
+            </li>
+            <li>
+              <div className="name">PostgreSQL</div>
+            </li>
+            <li>
+              <div className="name">MySQL</div>
             </li>
             <li>
               <div className="name">Ruby on Rails</div>
@@ -131,6 +146,9 @@ export const KnowledgeSkills = () => {
             </li>
             <li>
               <div className="name">Heroku</div>
+            </li>
+            <li>
+              <div className="name">Figma</div>
             </li>
           </ul>
         </div>
