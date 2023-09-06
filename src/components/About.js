@@ -16,7 +16,7 @@ const About = () => {
           <div className="info-list">
             <ul>
               <li>
-                <strong>Age:</strong> 36
+                <strong>Age:</strong> 37
               </li>
               <li>
                 <strong>Residence:</strong> Texas
