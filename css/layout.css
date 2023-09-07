@@ -3639,7 +3639,7 @@ object {
   }
 
   .footer {
-    padding: 20px 0;
+    padding: 15px 0;
     position: relative;
     top: 0;
     bottom: auto;
@@ -3674,7 +3674,7 @@ object {
   .home .footer {
     padding: 0;
     position: fixed;
-    bottom: 50px;
+    bottom: 15px;
     top: auto;
     left: 50px;
     right: 50px;
