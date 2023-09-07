@@ -18,7 +18,7 @@ const ContactSection = () => {
                 </div>
                 <div className="name">Phone</div>
                 <div className="text">+55 (11) 97375-3155</div>
-                <div className="text">+1 (347) 571-9001</div>
+                <div className="text">+1 (346) 634-6222</div>
               </div>
             </div>
             <div className="service-col">
@@ -28,8 +28,8 @@ const ContactSection = () => {
                 </div>
                 <div className="name">Email</div>
                 <div className="text">
-                  <a href="mailto:hi@renoirlucena.dev">
-                    hi@renoirlucena.dev
+                  <a href="mailto:renoirlucena@gmail.com">
+                    renoirlucena@gmail.com
                   </a>
                 </div>
               </div>

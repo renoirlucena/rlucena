@@ -395,7 +395,7 @@
                     (0, n.jsx)("a", {
                       target: "_blank",
                       rel: "noreferrer",
-                      href: "https://wa.me/5511973753155",
+                      href: "https://wa.me/13466346222",
                       children: (0, n.jsx)("span", {
                         className: "icon fab fa-whatsapp",
                       }),
@@ -411,7 +411,7 @@
                     (0, n.jsx)("a", {
                       target: "_blank",
                       rel: "noreferrer",
-                      href: "mailto:hi@renoirlucena.dev",
+                      href: "mailto:renoirlucena@gmail.com",
                       children: (0, n.jsx)("span", {
                         className: "icon fa fa-envelope",
                       }),
