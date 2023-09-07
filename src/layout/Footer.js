@@ -13,13 +13,13 @@ const Footer = () => {
           <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/renoirlucena">
             <span className="icon fab fa-linkedin" />
           </a>
-          <a target="_blank" rel="noreferrer" href="https://wa.me/5511973753155">
+          <a target="_blank" rel="noreferrer" href="https://wa.me/13466346222">
             <span className="icon fab fa-whatsapp" />
           </a>
-          <a target="_blank" rel="noreferrer" href="tel:13475719001">
+          <a target="_blank" rel="noreferrer" href="tel:13466346222">
             <span className="icon fab fa-skype" />
           </a>
-          <a target="_blank" rel="noreferrer" href="mailto:hi@renoirlucena.dev">
+          <a target="_blank" rel="noreferrer" href="mailto:renoirlucena@gmail.com">
             <span className="icon fa fa-envelope" />
           </a>
         </div>
