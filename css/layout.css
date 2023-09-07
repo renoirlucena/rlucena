@@ -3639,7 +3639,7 @@ object {
   }
 
   .footer {
-    padding: 50px 0;
+    padding: 20px 0;
     position: relative;
     top: 0;
     bottom: auto;
@@ -3708,7 +3708,7 @@ object {
 /* section footer mobile */
 @media (max-width: 720px) {
   .home .footer {
-    bottom: 15px;
+    bottom: 30px;
     top: auto;
     left: 30px;
     right: 30px;
