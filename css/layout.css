@@ -3708,7 +3708,7 @@ object {
 /* section footer mobile */
 @media (max-width: 720px) {
   .home .footer {
-    bottom: 30px;
+    bottom: 15px;
     top: auto;
     left: 30px;
     right: 30px;
