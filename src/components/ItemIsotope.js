@@ -157,7 +157,7 @@ const ItemIsotope = () => {
               <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
-                    <span className="icon fas fa-images" />
+                    <span className="icon fas fa-link" />
                     <span className="desc">
                       <span className="category">Website</span>
                       <span className="name">Estúdio Lidi Lopez</span>
