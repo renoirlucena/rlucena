@@ -147,8 +147,8 @@ const ItemIsotope = () => {
         </div>
       </div>
       {/* portfolio items */}
-      <div className="box-items portfolio-items">
-        <div className="box-item f-gallery">
+      <div className="box-items">
+        <div className="box-item">
           {" "}
           {/* add class "animate-to-page" if need animated transition to page and delete target="_blank" rel="noreferrer" */}
           <div className="image">
