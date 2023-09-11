@@ -177,7 +177,7 @@ const ItemIsotope = () => {
         <div className="box-item f-links">
           <div className="image">
             <a
-              href="https://project-my-shift.herokuapp.com/"
+              href="https://my-shift-03a563c50f72.herokuapp.com/"
               className="has-popup-link hover-animated"
               target="_blank"
               rel="noreferrer"
