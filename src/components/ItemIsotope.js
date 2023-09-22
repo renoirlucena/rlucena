@@ -76,16 +76,6 @@ const ItemIsotope = () => {
               All
             </label>
           </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-video")}`}
-              onClick={handleFilterKeyChange("f-video")}
-              data-text="Video"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-video" />
-              Video
-            </label>
-          </div>
         </div>
       </div>
       <div className="box-items">
