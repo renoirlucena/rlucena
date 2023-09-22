@@ -41,19 +41,13 @@
             let e = document.querySelectorAll(".circle");
             e.forEach((e) => {
               e.addEventListener("mouseenter", (s) => {
-                if (
-                  (console.log(
-                    s.pageY,
-                    e.offsetParent.offsetParent.offsetParent.offsetParent
-                      .offsetLeft,
-                    e.offsetTop
-                  ),
-                  !e.getElementsByClassName("ink")[0])
-                ) {
+                let offsetLeft = e.offsetParent?.offsetParent?.offsetParent?.offsetParent?.offsetLeft || 0;
+                console.log(s.pageY, offsetLeft, e.offsetTop);
+                if (!e.getElementsByClassName("ink")[0]) {
                   let a = document.createElement("span");
-                  a.classList.add("ink"),
-                    e.appendChild(a),
-                    a.classList.add("ink-animate");
+                  a.classList.add("ink");
+                  e.appendChild(a);
+                  a.classList.add("ink-animate");
                 }
               }),
                 e.addEventListener("mouseleave", (e) => {
