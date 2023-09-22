@@ -167,7 +167,7 @@
                     children: (0, i.jsx)("div", {
                       className: "image",
                       children: (0, i.jsxs)("a", {
-                        href: "https://https://vintage-auto-a09e81a72c30.herokuapp.com/",
+                        href: "https://vintage-auto-a09e81a72c30.herokuapp.com/",
                         className: "has-popup-link hover-animated",
                         target: "_blank",
                         rel: "noreferrer",
