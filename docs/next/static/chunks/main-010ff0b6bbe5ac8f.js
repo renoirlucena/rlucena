@@ -3895,17 +3895,15 @@
             "object" == typeof s &&
             (s = String(n.urlQueryToSearchParams(s)));
         let c = e.search || (s && "?".concat(s)) || "";
-        return (
-          o && !o.endsWith(":") && (o += ":"),
-          e.slashes || ((!o || a.test(o)) && !1 !== u)
-            ? ((u = "//" + (u || "")), i && "/" !== i[0] && (i = "/" + i))
-            : u || (u = ""),
-          l && "#" !== l[0] && (l = "#" + l),
-          c && "?" !== c[0] && (c = "?" + c),
-          (i = i.replace(/[?#]/g, encodeURIComponent)),
-          (c = c.replace("#", "%23")),
-          "".concat(o).concat(u).concat(i).concat(c).concat(l)
-        );
+        return o && !o.endsWith(":") && (o += ":"),
+        e.slashes || ((!o || a.test(o)) && !1 !== u)
+          ? ((u = "//" + (u || "")), i && "/" !== i[0] && (i = "/" + i))
+          : u || (u = ""),
+        l && "#" !== l[0] && (l = "#" + l),
+        c && "?" !== c[0] && (c = "?" + c),
+        (i = i.replace(/[?#]/g, encodeURIComponent)),
+        (c = c.replace("#", "%23")),
+        "".concat(o).concat(u).concat(i).concat(c).concat(l);
       }
       t.urlObjectKeys = [
         "auth",
@@ -4538,10 +4536,8 @@
         (t.normalizeRepeatedSlashes = function (e) {
           let t = e.split("?"),
             r = t[0];
-          return (
-            r.replace(/\\/g, "/").replace(/\/\/+/g, "/") +
-            (t[1] ? "?".concat(t.slice(1).join("?")) : "")
-          );
+          return r.replace(/\\/g, "/").replace(/\/\/+/g, "/") +
+          (t[1] ? "?".concat(t.slice(1).join("?")) : "");
         }),
         (t.loadGetInitialProps = u),
         (t.ST = t.SP = t.isAbsoluteUrl = t.WEB_VITALS = void 0);
@@ -4754,26 +4750,24 @@
         (f = function (e, t) {
           var r = c(),
             n = "navigate";
-          return (
-            s >= 0
-              ? (n = "back-forward-cache")
-              : r &&
-                (n =
-                  document.prerendering || d() > 0
-                    ? "prerender"
-                    : r.type.replace(/_/g, "-")),
-            {
-              name: e,
-              value: void 0 === t ? -1 : t,
-              rating: "good",
-              delta: 0,
-              entries: [],
-              id: "v3-"
-                .concat(Date.now(), "-")
-                .concat(Math.floor(8999999999999 * Math.random()) + 1e12),
-              navigationType: n,
-            }
-          );
+          return s >= 0
+            ? (n = "back-forward-cache")
+            : r &&
+              (n =
+                document.prerendering || d() > 0
+                  ? "prerender"
+                  : r.type.replace(/_/g, "-")),
+          {
+            name: e,
+            value: void 0 === t ? -1 : t,
+            rating: "good",
+            delta: 0,
+            entries: [],
+            id: "v3-"
+              .concat(Date.now(), "-")
+              .concat(Math.floor(8999999999999 * Math.random()) + 1e12),
+            navigationType: n,
+          };
         }),
         (p = function (e, t, r) {
           try {

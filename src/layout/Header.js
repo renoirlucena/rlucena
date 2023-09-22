@@ -20,34 +20,34 @@ const Menu = () => (
           <ul className="menu">
             <li className="menu-item menu-item-has-children">
               <Link href="/">
-                <a>
-                  <span className="mask-lnk">Home</span>
-                  <span className="mask-lnk mask-lnk-hover">Home</span>
-                </a>
+
+                <span className="mask-lnk">Home</span>
+                <span className="mask-lnk mask-lnk-hover">Home</span>
+
               </Link>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/resume">
-                <a>
-                  <span className="mask-lnk">Resume</span>
-                  <span className="mask-lnk mask-lnk-hover">Resume</span>
-                </a>
+
+                <span className="mask-lnk">Resume</span>
+                <span className="mask-lnk mask-lnk-hover">Resume</span>
+
               </Link>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/works">
-                <a>
-                  <span className="mask-lnk">Portfolio</span>
-                  <span className="mask-lnk mask-lnk-hover">Portfolio</span>
-                </a>
+
+                <span className="mask-lnk">Portfolio</span>
+                <span className="mask-lnk mask-lnk-hover">Portfolio</span>
+
               </Link>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/contacts">
-                <a>
-                  <span className="mask-lnk">Contact</span>
-                  <span className="mask-lnk mask-lnk-hover">Contact</span>
-                </a>
+
+                <span className="mask-lnk">Contact</span>
+                <span className="mask-lnk mask-lnk-hover">Contact</span>
+
               </Link>
             </li>
           </ul>
