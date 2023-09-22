@@ -61,7 +61,54 @@
                   s && s.classList.remove("ink-animate");
                 });
             });
-          }, []),
+          },
+          (0, i.jsx)("div", {
+            className: "box-item f-links",
+            children: (0, i.jsx)("div", {
+              className: "image",
+              children: (0, i.jsxs)("a", {
+                href: "https://my-shift-f6b2e23fa4f1.herokuapp.com/",
+                className: "has-popup-link hover-animated",
+                target: "_blank",
+                rel: "noreferrer",
+                children: [
+                  (0, i.jsx)("img", {
+                    src: "images/myshift.png",
+                    className: "wp-post-image",
+                    alt: "",
+                  }),
+                  (0, i.jsx)("span", {
+                    className: "info circle",
+                    children: (0, i.jsx)("span", {
+                      className: "centrize full-width",
+                      children: (0, i.jsxs)("span", {
+                        className: "vertical-center",
+                        children: [
+                          (0, i.jsx)("span", {
+                            className: "icon fas fa-link",
+                          }),
+                          (0, i.jsxs)("span", {
+                            className: "desc",
+                            children: [
+                              (0, i.jsx)("span", {
+                                className: "category",
+                                children: "Web App",
+                              }),
+                              (0, i.jsx)("span", {
+                                className: "name",
+                                children: "My Shift",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                  }),
+                ],
+              }),
+            }),
+          }),
+          []),
           (0, i.jsxs)(n.Fragment, {
             children: [
               (0, i.jsxs)("div", {
@@ -74,13 +121,13 @@
                       (0, i.jsx)("div", {
                         className: "image",
                         children: (0, i.jsxs)("a", {
-                          href: "https://www.lidilopez.com.br",
+                          href: "https://vintage-auto-a09e81a72c30.herokuapp.com/",
                           target: "_blank",
                           rel: "noreferrer",
                           className: "hover-animated",
                           children: [
                             (0, i.jsx)("img", {
-                              src: "images/lidilopez.png",
+                              src: "images/vintage.png",
                               className: "wp-post-image",
                               alt: "",
                             }),

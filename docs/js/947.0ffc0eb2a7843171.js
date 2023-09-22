@@ -162,6 +162,52 @@
                       }),
                     }),
                   }),
+                  (0, i.jsx)("div", {
+                    className: "box-item f-links",
+                    children: (0, i.jsx)("div", {
+                      className: "image",
+                      children: (0, i.jsxs)("a", {
+                        href: "https://https://vintage-auto-a09e81a72c30.herokuapp.com/",
+                        className: "has-popup-link hover-animated",
+                        target: "_blank",
+                        rel: "noreferrer",
+                        children: [
+                          (0, i.jsx)("img", {
+                            src: "images/vintage-garage.png",
+                            className: "wp-post-image",
+                            alt: "",
+                          }),
+                          (0, i.jsx)("span", {
+                            className: "info circle",
+                            children: (0, i.jsx)("span", {
+                              className: "centrize full-width",
+                              children: (0, i.jsxs)("span", {
+                                className: "vertical-center",
+                                children: [
+                                  (0, i.jsx)("span", {
+                                    className: "icon fas fa-link",
+                                  }),
+                                  (0, i.jsxs)("span", {
+                                    className: "desc",
+                                    children: [
+                                      (0, i.jsx)("span", {
+                                        className: "category",
+                                        children: "Web App",
+                                      }),
+                                      (0, i.jsx)("span", {
+                                        className: "name",
+                                        children: "Vintage Garage",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            }),
+                          }),
+                        ],
+                      }),
+                    }),
+                  }),
                 ],
               }),
             ],
