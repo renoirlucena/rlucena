@@ -10,6 +10,7 @@ const ItemIsotope = () => {
 
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("box-item");
+
   useEffect(() => {
     setTimeout(() => {
       isotope.current = new Isotope(".portfolio-items", {
@@ -26,6 +27,7 @@ const ItemIsotope = () => {
       });
     }, 1000);
   }, []);
+
   useEffect(() => {
     if (isotope.current) {
       filterKey === "*"
@@ -33,20 +35,17 @@ const ItemIsotope = () => {
         : isotope.current.arrange({ filter: `.${filterKey}` });
     }
   }, [filterKey]);
+
   const handleFilterKeyChange = (key) => () => {
     setFilterKey(key);
   };
+
   const activeBtn = (value) => (value === filterKey ? "glitch-effect" : "");
 
   useEffect(() => {
     const circle = document.querySelectorAll(".circle");
     circle.forEach((e) => {
       e.addEventListener("mouseenter", (m) => {
-        console.log(
-          m.pageY,
-          e.offsetParent.offsetParent.offsetParent.offsetParent.offsetLeft,
-          e.offsetTop
-        );
         if (!e.getElementsByClassName("ink")[0]) {
           const span = document.createElement("span");
           span.classList.add("ink");
@@ -92,31 +91,7 @@ const ItemIsotope = () => {
       <div className="box-items">
         <div className="box-item">
           <div className="image">
-            <a href="https://www.lidilopez.com.br" target="_blank" rel="noreferrer" className="has-popup-gallery hover-animated">
-              <img src="images/lidilopez.png" className="wp-post-image" alt="" />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-link" />
-                    <span className="desc">
-                      <span className="category">Website</span>
-                      <span className="name">Estúdio Lidi Lopez</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div className="box-item f-links">
-          <div className="image">
-            <a
-              href="https://vintage-auto-a09e81a72c30.herokuapp.com/"
-              className="has-popup-link hover-animated"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://vintage-auto-a09e81a72c30.herokuapp.com/" target="_blank" rel="noreferrer" className="has-popup-gallery hover-animated">
               <img src="images/vintage-garage.png" className="wp-post-image" alt="" />
               <span className="info circle">
                 <span className="centrize full-width">
@@ -132,7 +107,29 @@ const ItemIsotope = () => {
             </a>
           </div>
         </div>
-        {/* The commented-out sections */}
+        <div className="box-item f-links">
+          <div className="image">
+            <a
+              href="https://my-shift-03a563c50f72.herokuapp.com/"
+              className="has-popup-link hover-animated"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="images/myshift.png" className="wp-post-image" alt="" />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-link" />
+                    <span className="desc">
+                      <span className="category">Web App</span>
+                      <span className="name">My Shift</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </Fragment>
   );

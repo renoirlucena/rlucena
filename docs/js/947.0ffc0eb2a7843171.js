@@ -41,13 +41,19 @@
             let e = document.querySelectorAll(".circle");
             e.forEach((e) => {
               e.addEventListener("mouseenter", (s) => {
-                let offsetLeft = e.offsetParent?.offsetParent?.offsetParent?.offsetParent?.offsetLeft || 0;
-                console.log(s.pageY, offsetLeft, e.offsetTop);
-                if (!e.getElementsByClassName("ink")[0]) {
+                if (
+                  (console.log(
+                    s.pageY,
+                    e.offsetParent.offsetParent.offsetParent.offsetParent
+                      .offsetLeft,
+                    e.offsetTop
+                  ),
+                  !e.getElementsByClassName("ink")[0])
+                ) {
                   let a = document.createElement("span");
-                  a.classList.add("ink");
-                  e.appendChild(a);
-                  a.classList.add("ink-animate");
+                  a.classList.add("ink"),
+                    e.appendChild(a),
+                    a.classList.add("ink-animate");
                 }
               }),
                 e.addEventListener("mouseleave", (e) => {
@@ -115,7 +121,7 @@
                     children: (0, i.jsx)("div", {
                       className: "image",
                       children: (0, i.jsxs)("a", {
-                        href: "https://my-shift-f6b2e23fa4f1.herokuapp.com/",
+                        href: "https://my-shift-03a563c50f72.herokuapp.com/",
                         className: "has-popup-link hover-animated",
                         target: "_blank",
                         rel: "noreferrer",
@@ -145,52 +151,6 @@
                                       (0, i.jsx)("span", {
                                         className: "name",
                                         children: "My Shift",
-                                      }),
-                                    ],
-                                  }),
-                                ],
-                              }),
-                            }),
-                          }),
-                        ],
-                      }),
-                    }),
-                  }),
-                  (0, i.jsx)("div", {
-                    className: "box-item f-links",
-                    children: (0, i.jsx)("div", {
-                      className: "image",
-                      children: (0, i.jsxs)("a", {
-                        href: "https://vintage-auto-a09e81a72c30.herokuapp.com/",
-                        className: "has-popup-link hover-animated",
-                        target: "_blank",
-                        rel: "noreferrer",
-                        children: [
-                          (0, i.jsx)("img", {
-                            src: "images/vintage-garage.png",
-                            className: "wp-post-image",
-                            alt: "",
-                          }),
-                          (0, i.jsx)("span", {
-                            className: "info circle",
-                            children: (0, i.jsx)("span", {
-                              className: "centrize full-width",
-                              children: (0, i.jsxs)("span", {
-                                className: "vertical-center",
-                                children: [
-                                  (0, i.jsx)("span", {
-                                    className: "icon fas fa-link",
-                                  }),
-                                  (0, i.jsxs)("span", {
-                                    className: "desc",
-                                    children: [
-                                      (0, i.jsx)("span", {
-                                        className: "category",
-                                        children: "Web App",
-                                      }),
-                                      (0, i.jsx)("span", {
-                                        className: "name",
-                                        children: "Vintage Garage",
                                       }),
                                     ],
                                   }),
