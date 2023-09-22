@@ -114,13 +114,13 @@
                       (0, i.jsx)("div", {
                         className: "image",
                         children: (0, i.jsxs)("a", {
-                          href: "https://www.lidilopez.com.br",
+                          href: "https://vintage-auto-a09e81a72c30.herokuapp.com/",
                           target: "_blank",
                           rel: "noreferrer",
                           className: "hover-animated",
                           children: [
                             (0, i.jsx)("img", {
-                              src: "images/lidilopez.png",
+                              src: "images/vintage-garage.png",
                               className: "wp-post-image",
                               alt: "",
                             }),
@@ -139,11 +139,11 @@
                                       children: [
                                         (0, i.jsx)("span", {
                                           className: "category",
-                                          children: "Website",
+                                          children: "Web App",
                                         }),
                                         (0, i.jsx)("span", {
                                           className: "name",
-                                          children: "Est\xfadio Lidi Lopez",
+                                          children: "Vintage Garage",
                                         }),
                                       ],
                                     }),
