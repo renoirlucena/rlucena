@@ -232,11 +232,7 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className: "date",
-<<<<<<< HEAD
                                 children: "2012 - 2016",
-=======
-                                children: "2011 - 2016",
->>>>>>> 36a6a08fed573b8a256e5469c5ec07d70e9cacb2
                               }),
                               (0, a.jsx)("div", {
                                 className: "name",
