@@ -19,7 +19,7 @@ const ResumeSection = () => {
                 </div>
               </div>
               <div className="resume-item content-box">
-                <div className="date">2011 - 2016</div>
+                <div className="date">2012 - 2016</div>
                 <div className="name">Assistant Manager - Sant Ambroeus - New York City</div>
                 <div className="text">
                 Responsible for managing all facets of the Dining Room and Service operations at
