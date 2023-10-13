@@ -321,11 +321,7 @@
                           (0, a.jsx)("div", {
                             className: "text",
                             children:
-<<<<<<< HEAD
                               "Modern and responsive websites that will help you reach all of your potential",
-=======
-                              "Coupling cutting edge technologies with a user-centric approach, we create web applications that not only adapt seamlessly to all devices but also empower you to achieve your goals effectively. My commitment to innovation ensures that your online presence remains ahead of the curve, ready to meet the evolving needs of your audience.",
->>>>>>> 36a6a08fed573b8a256e5469c5ec07d70e9cacb2
                           }),
                         ],
                       }),
