@@ -37,7 +37,7 @@
                   children: [
                     (0, a.jsx)("p", {
                       children:
-                        "Dear Ms. Krackeler, I'm very interested in the IBM Z Systems Support Apprentice role. My tech journey started at age 14 and has been full of ups and downs. Early challenges, like leaving college for financial reasons and becoming a parent in 2009, made me even more determined. In 2022, I joined a Full Stack Boot Camp in São Paulo, Brazil. During this program, I got into web development and became proficient in tools and languages like HTML5, CSS3, JavaScript, SQL, and Ruby. Additionally, working within Agile frameworks allowed me to understand the importance of adaptability, collaboration, and continuous feedback in project management. Realizing the importance of digital marketing today, I jumped into areas like SEO, Google Analytics, and online ads, giving me a well-rounded view of the digital world. My time at Lidi Lopez Studio was a real eye-opener. Beyond the usual marketing stuff, I got into photography and videomaking. This experience helped me get better at the creative side, and now I’m pretty good with tools like Photoshop and Premiere to make cool visuals. Throughout my career, teamwork and clear communication have been key. I believe the best results come when everyone collaborates, sharing the same goal. I've always aimed to create a positive, goal-focused environment, no matter my role. I'm excited to bring this team spirit to IBM and be a part of IBM's awesome culture. My strong commitment to learning shows in my recent courses. I took several IBM ones in 2023, with the z/OS Mainframe Practitioner Professional standing out. With my mix of experiences, I'm confident I have something special to offer IBM. Right now, I'm in Katy, TX, but I'm all set to move to Dallas for this role. Plus, I'm flexible with my time — ready to work day, night, weekends, even holidays. I truly believe my background, love for tech, and desire to keep improving are a great match for IBM's values. I'm really looking forward to a chance to talk more about how I can help out the Z Systems Support team and be a part of IBM's big picture. I really appreciate you considering me. Warm regards, Renoir Lucena",
+                        "My tech journey started at age 14 and has been full of ups and downs. Early challenges, like leaving college for financial reasons and becoming a parent in 2009, made me even more determined. In 2022, I joined a Full Stack Boot Camp in São Paulo, Brazil. During this program, I got into web development and became proficient in tools and languages like HTML5, CSS3, JavaScript, SQL, and Ruby. Additionally, working within Agile frameworks allowed me to understand the importance of adaptability, collaboration, and continuous feedback in project management. Realizing the importance of digital marketing today, I jumped into areas like SEO, Google Analytics, and online ads, giving me a well-rounded view of the digital world. My time at Lidi Lopez Studio was a real eye-opener. Beyond the usual marketing stuff, I got into photography and videomaking. This experience helped me get better at the creative side, and now I’m pretty good with tools like Photoshop and Premiere to make cool visuals. Throughout my career, teamwork and clear communication have been key. I believe the best results come when everyone collaborates, sharing the same goal. I have always aimed to create a positive, goal-focused environment, no matter my role.",
                     }),
                     (0, a.jsx)("div", {
                       className: "info-list",
@@ -232,7 +232,11 @@
                             children: [
                               (0, a.jsx)("div", {
                                 className: "date",
+<<<<<<< HEAD
                                 children: "2012 - 2016",
+=======
+                                children: "2011 - 2016",
+>>>>>>> 36a6a08fed573b8a256e5469c5ec07d70e9cacb2
                               }),
                               (0, a.jsx)("div", {
                                 className: "name",
@@ -321,7 +325,11 @@
                           (0, a.jsx)("div", {
                             className: "text",
                             children:
+<<<<<<< HEAD
                               "Modern and responsive websites that will help you reach all of your potential",
+=======
+                              "Coupling cutting edge technologies with a user-centric approach, we create web applications that not only adapt seamlessly to all devices but also empower you to achieve your goals effectively. My commitment to innovation ensures that your online presence remains ahead of the curve, ready to meet the evolving needs of your audience.",
+>>>>>>> 36a6a08fed573b8a256e5469c5ec07d70e9cacb2
                           }),
                         ],
                       }),
