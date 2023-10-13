@@ -37,7 +37,7 @@
                   children: [
                     (0, a.jsx)("p", {
                       children:
-                        "I am an aspiring full-stack developer and I really enjoy working in a fast-paced, flexible environment where folks love learning and tackling tough problems. My excitement for coding keeps me motivated to keep learning and improving in this ever-changing field. I actively look for projects that challenge me and help me get better while coming up with creative solutions. I am committed to staying up-to-date with the latest tech trends and love sharing what I know with others. My goal is to be a helpful team member, working together to make software that makes a real difference in the world.",
+                        "I am an aspiring full-stack developer, and I really enjoy working in a fast-paced, flexible environment where folks love learning and tackling tough problems. My excitement for coding keeps me motivated to keep learning and improving in this ever-changing field. I actively look for projects that challenge me and help me get better while coming up with creative solutions. I am committed to staying up-to-date with the latest tech trends and love sharing what I know with others. My goal is to be a helpful team member, working together to make software that makes a real difference in the world.",
                     }),
                     (0, a.jsx)("div", {
                       className: "info-list",
