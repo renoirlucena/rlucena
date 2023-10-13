@@ -81,7 +81,7 @@ const ItemIsotope = () => {
       <div className="box-items">
         <div className="box-item">
           <div className="image">
-            <a href="https://vintage-auto-a09e81a72c30.herokuapp.com/" target="_blank" rel="noreferrer" className="has-popup-gallery hover-animated">
+            <a href="https://vintage-auto-a09e81a72c30.herokuapp.com/" target="_blank" rel="noreferrer" className="has-popup-link hover-animated">
               <img src="images/vintage-garage.png" className="wp-post-image" alt="" />
               <span className="info circle">
                 <span className="centrize full-width">

@@ -17,7 +17,6 @@ const ContactSection = () => {
                   <span className="fas fa-phone" />
                 </div>
                 <div className="name">Phone</div>
-                <div className="text">+55 (11) 97375-3155</div>
                 <div className="text">+1 (346) 634-6222</div>
               </div>
             </div>
@@ -39,8 +38,8 @@ const ContactSection = () => {
                 <div className="icon">
                   <span className="fas fa-map-marker-alt" />
                 </div>
-                <div className="name">Address</div>
-                <div className="text">29-21 Astoria Blvd #2L - Long Island City, NY 11102</div>
+                <div className="name">Location</div>
+                <div className="text">Katy, TX, 77494</div>
               </div>
             </div>
             <div className="service-col">
@@ -49,7 +48,7 @@ const ContactSection = () => {
                   <span className="fas fa-user-tie" />
                 </div>
                 <div className="name">Freelance Available</div>
-                <div className="text">I am available for Freelance hire</div>
+                <div className="text">I am also available for Freelance hire</div>
               </div>
             </div>
           </div>
